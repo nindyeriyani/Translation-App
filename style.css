@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(15, 18, 28);
+  color: #e4b04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 900px;
+  background: #fff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .3);
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.translator-property {
+  border: 1px solid #c7c7c783;
+}
+
+.translator-property .nuv-item {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid #c7c7c7;
+  padding: 0 20px;
+}
+
+.translator-property .nuv-item li select {
+  outline: none;
+  border-style: none;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.translator-property .nuv-item li select:hover {
+  background-color: #c7c7c783;
+}
+
+.bx-transfer {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bx-transfer:hover {
+  background-color: #606060;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.write-box {
+  display: flex;
+}
+
+.property-from, .property-trans{
+  width: 100%;
+  position: relative;
+}
+
+.write-box textarea {
+  width: 100%;
+  height: 250px;
+  border-style: none;
+  outline: none;
+  resize: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.write-box textarea:nth-child(1) {
+  border-right: 1px solid #c7c7c7;
+}
+
+.write-box .icons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.icons .bx {
+  width: 35px;
+  height: 35px;
+  background: #ddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 18px;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+.icons .bx:hover {
+  background: #606060;
+  color: wheat;
+}
+
+.code-length {
+  font-size: 18px;
+  color: #fff;
+}
+
+h1 {
+  color: #e4b04e;
+  margin-bottom: 20px;;
+}
+
+.translator {
+  background-color: #1e2433;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #c7c7c71f;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 20px;
+  color: #e4b04e;
+}
+
